@@ -1,70 +1,89 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# CRUD Application
 
-In the project directory, you can run:
+Este é um projeto CRUD (Create, Read, Update, Delete) desenvolvido com React.js no front-end e Node.js no back-end. A aplicação permite a gestão de dados de estudantes, incluindo a criação, leitura, atualização e exclusão de registros.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Criar**: Adicionar novos registros de usuários.
+- **Ler**: Visualizar a lista de usuários cadastrados.
+- **Atualizar**: Editar informações de usuários existentes.
+- **Excluir**: Remover registros de usuários.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `npm test`
+### Front-end
+- **React.js**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Axios**: Cliente HTTP para fazer requisições à API.
+- **React Router DOM**: Biblioteca para gerenciar rotas na aplicação React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Back-end
+- **Node.js**: Ambiente de execução JavaScript do lado do servidor.
+- **Express.js**: Framework web para Node.js.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instalação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pré-requisitos
+- Node.js instalado na máquina.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Passo a passo
 
-### `npm run eject`
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Instale as dependências do back-end:
+   ```bash
+   cd backend
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+     ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Inicie o servidor do back-end:
+   ```bash
+   npm start
+   ```
 
-## Learn More
+4. Instale as dependências do front-end:
+   ```bash
+   cd ../frontend
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Inicie o servidor do front-end:
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Endpoints da API
 
-### Code Splitting
+- `GET /`: Retorna a lista de estudantes.
+- `POST /CriarEstudante`: Cria um novo estudante.
+- `PUT /UpdateEstudante/:id`: Atualiza as informações de um estudante existente.
+- `DELETE /delete/:id`: Remove um estudante.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Faça um fork do projeto.
+2. Crie uma nova branch: `git checkout -b minha-feature`.
+3. Faça suas alterações e commit: `git commit -m 'Minha nova feature'`.
+4. Envie para o seu fork: `git push origin minha-feature`.
+5. Crie um Pull Request para a branch principal do projeto original.
 
-### Making a Progressive Web App
+## Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-### Advanced Configuration
+## Contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Nome: Provera Samuel
+- Email: oroverasamuel2022@gmail.com
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
