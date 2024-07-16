@@ -85,5 +85,5 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 ## Contato
 
 - Nome: Provera Samuel
-- Email: oroverasamuel2022@gmail.com
+- Email: proverasamuel2022@gmail.com
 
